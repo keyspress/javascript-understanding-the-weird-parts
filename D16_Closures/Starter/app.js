@@ -4,4 +4,5 @@ function greet(whattosay) {
   };
 }
 
-greet('Hi')('Elmo');
+var sayHi = greet('Hi');
+sayHi('Elmo');
